@@ -117,8 +117,7 @@ export const BentoCard = ({
 };
 
 export const Features = () => (
-  <section className="pb-52">
-    <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]" />
+  <section className="bg-black pb-52">
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-blue-50">
