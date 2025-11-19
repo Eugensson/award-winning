@@ -32,7 +32,7 @@ export const About = () => {
   return (
     <section id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
-        <p className="font-general font-me font-medium text-base uppercase md:text-xl">
+        <p className="font-general font-medium text-base uppercase md:text-xl">
           Welcome to Zentry
         </p>
 

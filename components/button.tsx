@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 
 interface ButtonProps {
-  id: string;
+  id?: string;
   title: string;
   rightIcon?: React.ReactNode;
   leftIcon?: React.ReactNode;
