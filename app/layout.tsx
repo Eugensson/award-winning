@@ -41,9 +41,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${zentry.variable} ${general.variable} ${circularWeb.variable} ${robertMedium.variable} ${robertRegular.variable} antialiased`}
+        className={`${zentry.className} ${general.className} ${circularWeb.className} ${robertMedium.className} ${robertRegular.className} antialiased`}
       >
         {children}
         <Analytics />

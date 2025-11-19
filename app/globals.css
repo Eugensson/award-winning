@@ -64,7 +64,7 @@
   }
 
   .about-subtext {
-    @apply absolute bottom-[-80dvh] left-1/2 w-full max-w-96 -translate-x-1/2 text-center font-circular-web text-lg md:max-w-136;
+    @apply absolute bottom-[-80dvh] left-1/2 w-full max-w-96 -translate-x-1/2 text-center font-circular-web lg:text-xl md:max-w-136;
   }
 
   .about-image {
@@ -83,7 +83,7 @@
   }
 
   .bento-tilt_1 {
-    @apply relative border border-white/20 col-span-2 overflow-hidden rounded-md transition-transform duration-300 ease-out;
+    @apply relative border border-white/20 col-span-1 overflow-hidden rounded-md transition-transform duration-300 ease-out;
   }
 
   .bento-tilt_2 {
