@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/next";
 
 import "./globals.css";
 
@@ -45,6 +46,7 @@ export default function RootLayout({
         className={`${zentry.variable} ${general.variable} ${circularWeb.variable} ${robertMedium.variable} ${robertRegular.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
